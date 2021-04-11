@@ -68,10 +68,10 @@ port from one hour to two hours.
 
 ```
 A -> 6
-A, B -> 6
-A, B, B -> 9
 A, A -> 14
 A, A, B -> 14
+A, B -> 6
+A, B, B -> 9
 B, B, A -> 16
 B, B, A, A -> 24 
 ```
@@ -89,11 +89,11 @@ changing the travel time.
 
 ```
 A -> 6
-A, B -> 6
-A, B, B -> 9
 A, A -> 6
 A, A, B -> 9
+A, B -> 6
 A, B, A -> 14
+A, B, B -> 9
 B, B, A -> 16
 B, B, A, A -> 16 
 ```
