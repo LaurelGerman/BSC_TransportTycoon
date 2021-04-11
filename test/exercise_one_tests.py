@@ -9,10 +9,11 @@ class LastDeliveryTimeTest(unittest.TestCase):
             (5, "AB"),
             (5, "BB"),
             (7, "ABB"),
-            (29, "AABABBAB")
+            (29, "AABABBAB"),
+            (41, "ABBBABAAABBB")
         ]
         for expected_time, container_schedule in schedules:
-            with self.subTest():
+            with self.subTest(container_schedule):
                 self.assertEqual(
                     expected_time,
                     last_delivery_time(
