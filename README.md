@@ -5,6 +5,8 @@ by Rinat Abdullin.
 
 Adapted for Boston Software Crafters, April 2021.
 
+(Installation/Setup instructions [now included below](#installation))
+
 ![tt-1-exercise.png][2]
 
 We're creating a shipping simulator; moving containers
@@ -101,3 +103,21 @@ B, B, A, A -> 16
 
 [1]: https://github.com/Softwarepark/exercises/blob/master/transport-tycoon.md
 [2]: ./doc/tycoon-diagram.png
+
+
+# Installation
+
+You can now install development tools with:
+```
+pip install -r dev-requirements.txt
+```
+(Ideally in a virtual environment).
+
+
+Or, using the optional Pipenv environment manager:
+```
+pipenv install
+pipenv shell
+```
+To create a virtual environment with all of the dependencies,
+and then open a shell using that environment.

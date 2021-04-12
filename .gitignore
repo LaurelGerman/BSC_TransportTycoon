@@ -1,2 +1,5 @@
 __pycache__
 venv
+.venv
+.git_message
+.vscode
